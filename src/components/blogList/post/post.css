@@ -1,0 +1,171 @@
+.post {
+  position: relative;
+  max-width: 500px;
+  margin: auto;
+  border-bottom: 2px solid grey;
+  padding-bottom: 40px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+
+.post-title {
+  position: relative;
+  text-align: center;
+}
+
+.post-body {
+  text-align: center;
+  font-size: 14px;
+  position: relative;
+}
+
+.post-delete {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.post-delete:hover {
+  color: red;
+}
+
+.post-edit {
+  color: rgb(77, 75, 75);
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.post-edit:hover {
+  color: rgb(5, 92, 5);
+}
+
+.post-view {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.post-view:hover {
+  color: rgb(124, 182, 124);
+}
+
+.post-input {
+  width: 90%;
+  height: 50px;
+  outline: none;
+  border: 1px solid aqua;
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.post-inputWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.post-save,
+.post-close {
+  margin-top: 10px;
+  width: 100px;
+  height: 30px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+}
+
+.post-save {
+  background-color: rgb(24, 231, 24);
+  margin-right: 10px;
+}
+
+.post-save:hover {
+  background-color: rgb(11, 153, 11);
+}
+
+.post-close {
+  background-color: rgb(241, 50, 50);
+}
+
+.post-close:hover {
+  background-color: red;
+}
+
+.commentList {
+  width: 100%;
+}
+
+.commentList-addWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.commentList-textarea {
+  height: 100px;
+  width: 300px;
+}
+
+.commentList-add {
+  width: 200px;
+  margin-top: 20px;
+  height: 40px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  color: #000;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: rgb(17, 219, 17);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  cursor: pointer;
+}
+
+.commentList-add:hover {
+  background-color: rgb(8, 179, 8);
+}
+
+.commentList-add:disabled {
+  background-color: grey;
+}
+
+.commentList-noCom {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.deleted {
+  width: 300px;
+  margin: auto;
+}
+
+.deleted-back {
+  display: block;
+  text-align: center;
+}
