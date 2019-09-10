@@ -4,6 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### 1 `fork` - you need fork this repository
+### 2 `git clone https://github.com/your-account/postBlog.git` - you need enter in terminal
+### 3 `npm init` - you need enter in terminal
+
 ### `npm start`
 
 Runs the app in the development mode.<br>
