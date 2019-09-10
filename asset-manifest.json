@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/postBlog/static/css/main.fa5cf1b1.chunk.css",
+    "main.js": "/postBlog/static/js/main.5ce5de4f.chunk.js",
+    "main.js.map": "/postBlog/static/js/main.5ce5de4f.chunk.js.map",
+    "runtime~main.js": "/postBlog/static/js/runtime~main.077d1304.js",
+    "runtime~main.js.map": "/postBlog/static/js/runtime~main.077d1304.js.map",
+    "static/js/2.9557b778.chunk.js": "/postBlog/static/js/2.9557b778.chunk.js",
+    "static/js/2.9557b778.chunk.js.map": "/postBlog/static/js/2.9557b778.chunk.js.map",
+    "index.html": "/postBlog/index.html",
+    "precache-manifest.fb15125110b26bb55552dee44e365651.js": "/postBlog/precache-manifest.fb15125110b26bb55552dee44e365651.js",
+    "service-worker.js": "/postBlog/service-worker.js",
+    "static/css/main.fa5cf1b1.chunk.css.map": "/postBlog/static/css/main.fa5cf1b1.chunk.css.map"
+  }
+}
